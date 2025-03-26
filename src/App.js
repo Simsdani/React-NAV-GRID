@@ -1,13 +1,10 @@
-
-import Navbar from "./Navbar";
+import GridLayout from './GridLayout';
+import './App.css';
 
 function App() {
- return (
-  <>  <Navbar/></>
-
- )
-};
-  
-
+  return (
+    <GridLayout/>
+  );
+}
 
 export default App;

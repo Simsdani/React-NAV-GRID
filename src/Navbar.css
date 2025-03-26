@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+  
+  .navbar-container {
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    background-color: #ff884d;
+    border: 1px solid #ccc;
+    padding: 0;
+  }
+  
+  .nav-item {
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s;
+  }
+  
+  .nav-item:hover {
+    background-color: #e6733d;
+  }
+  
+  .active {
+    background-color: #444;
+  }
+
